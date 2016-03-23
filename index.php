@@ -1,6 +1,7 @@
 <?php
 
-$fichero = file_get_contents('./release.txt', true);
+$fich = file_get_contents('./release.txt', true);
+$fichero = rtrim($fich);
 $hostname = gethostname();
 $fecha = new DateTime();
 $fecha->setTimestamp($fichero);
