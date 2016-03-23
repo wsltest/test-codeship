@@ -2,4 +2,5 @@
 
 rm -rf /var/www/html/deploy
 rm -rf /var/www/html/tmp
-rm -rf /var/www/html/logs
+rm -rf /var/www/html/log
+rm -rf /var/www/html/scripts
