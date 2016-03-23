@@ -30,8 +30,8 @@ hr {width: 934px; background-color: #ccc; border: 0; height: 1px;}
 </style>
 <title>Deploy Testing</title><meta name='ROBOTS' content='NOINDEX,NOFOLLOW,NOARCHIVE' /></head><body>\n";
 
-echo "<h1><center>The Server Name: " . $_SERVER['SERVER_NAME'] ." </center></h1>";
-echo "<center><table border='1'>
+echo "<h1><center>The Server Name: " . $_SERVER['SERVER_NAME'] . " </center></h1>\n";
+echo "<center><table>
 <tr><td>El timestamp es</td><td>". $fichero ."</td></tr>
 <tr><td>El hostname es</td><td>". $hostname . "</td></tr>
 <tr><td>La fecha es</td><td>" . $fecha->format('Y-m-d H:i:s') . "</td></tr>
