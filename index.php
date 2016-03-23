@@ -8,6 +8,7 @@ $fecha->setTimestamp($fichero);
 
 #Main Print
 echo "<html xmlns='http://www.w3.org/1999/xhtml'><head>
+<style type='text/css'>
 body {background-color: #fff; color: #222; font-family: sans-serif;}
 pre {margin: 0; font-family: monospace;}
 a:link {color: #009; text-decoration: none; background-color: #fff;}
